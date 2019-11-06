@@ -3,10 +3,10 @@ const readlineSync = require("readline-sync");
 const grade = Number(readlineSync.question("\nEnter a grade: "));
 
 const gradeA = ((grade >= 90) && (grade <= 100))
-const gradeB = ((grade >= 80) && (grade <= 89))
-const gradeC = ((grade >= 70) && (grade <= 79))
-const gradeD = ((grade >= 60) && (grade <= 69))
-const gradeF = ((grade >= 0) && (grade <= 59))
+const gradeB = ((grade >= 80) && (grade < 90))
+const gradeC = ((grade >= 70) && (grade < 80))
+const gradeD = ((grade >= 60) && (grade < 70))
+const gradeF = ((grade >= 0) && (grade < 60))
 
 if (!Number.isNaN(grade)) {
 if (gradeA) {
