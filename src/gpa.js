@@ -48,3 +48,4 @@ else if (grade == "F") {
 else {
   console.log("\nInvalid.");
 }
+
