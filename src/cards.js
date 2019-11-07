@@ -36,7 +36,7 @@ switch (cardNames){
     console.log("\nQueen of Diamonds.");
     break;
   case (cardNames = "QH"):
-    console.log("\nQueen of Hearts");
+    console.log("\nQueen of Hearts.");
     break;
   case (cardNames = "QC"):
     console.log("\nQueen of Clubs.");

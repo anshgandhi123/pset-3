@@ -4,7 +4,7 @@ const MIN = 0;
 const MAX = Number.MAX_SAFE_INTEGER;
 const year = Number(readlineSync.question("\nEnter a year: "));
 
-if (Number.isNaN(year)) {
+if (!Number.isInteger(year)) {
   console.log("\nInvalid.");
 }
  else if (year < MIN || year > MAX) {
