@@ -10,24 +10,24 @@ const gradeD = ((grade >= 60) && (grade < 70))
 const gradeF = ((grade >= 0) && (grade < 60))
 
 if (Number.isNaN(grade)) {
-  console.log("\nInvalid.");}
+  console.log("\nInvalid.\n");}
   else if (grade < MIN || grade > MAX) {
-    console.log("\nInvalid.");
+    console.log("\nInvalid.\n");
   }
   else if (gradeA) {
- console.log("\nYou received an A.");
+ console.log("\nYou received an A.\n");
 } else if (gradeB) {
-  console.log("\nYou received a B.")
+  console.log("\nYou received a B.\n")
 }
   else if (gradeC)  {
-    console.log("\nYou received a C.")
+    console.log("\nYou received a C.\n")
   }
   else if (gradeD) {
-    console.log("\nYou received a D.")
+    console.log("\nYou received a D.\n")
   }
   else if (gradeF) {
-    console.log("\nYou received an F.")
+    console.log("\nYou received an F.\n")
   }
   else {
-    console.log("\nInvalid.")
+    console.log("\nInvalid.\n")
   }
